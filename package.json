@@ -2,7 +2,7 @@
   "name": "httptosqlservertunnel",
   "module": "src/index.ts",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/ArnyminerZ/HttpToSqlServerTunnel",
   "author": {
     "name": "Arnau Mora",

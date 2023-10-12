@@ -24,7 +24,12 @@ async function streamToString(stream: ReadableStream): Promise<string> {
 function response(contents: Object, status: number = 200) {
     return new Response(
         JSON.stringify(contents),
-        { status }
+        {
+            status: status,
+            headers: [
+                ['ContentType', 'application/json']
+            ]
+        }
     )
 }
 
