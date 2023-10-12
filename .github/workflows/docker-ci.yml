@@ -28,4 +28,4 @@ jobs:
         with:
           push: true
           tags: arnyminerz/httptosqlservertunnel:development
-          platforms: linux/arm64,linux/arm/v7,linux/amd64
+          platforms: linux/amd64

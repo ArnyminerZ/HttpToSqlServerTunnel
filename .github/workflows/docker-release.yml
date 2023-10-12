@@ -32,4 +32,4 @@ jobs:
           tags: |
             arnyminerz/httptosqlservertunnel:${{ steps.vars.outputs.tag }}
             arnyminerz/httptosqlservertunnel:latest
-          platforms: linux/arm64,linux/arm/v7,linux/amd64
+          platforms: linux/amd64
