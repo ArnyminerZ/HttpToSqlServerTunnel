@@ -1,5 +1,5 @@
 // @ts-ignore
-import data from "./package.json";
+import data from "../package.json";
 import {ReadableStream} from 'stream/web';
 import {ConnectionConfig, Connection, Request, ColumnValue} from "tedious";
 
