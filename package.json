@@ -2,10 +2,20 @@
   "name": "httptosqlservertunnel",
   "module": "index.ts",
   "type": "module",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ArnyminerZ/HttpToSqlServerTunnel",
+  "author": {
+    "name": "Arnau Mora",
+    "url": "https://github.com/ArnyminerZ"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tedious": "^16.4.1",
+    "@types/tedious": "^4.0.12"
   }
 }

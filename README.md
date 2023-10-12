@@ -2,6 +2,11 @@
 
 A tunnel for making SQLServer requests through HTTP.
 
+## Security considerations
+
+With the aim of making this project as simple as possible, only http is supported. TLS should be implemented by an
+external proxy.
+
 # Development
 
 To install dependencies:
