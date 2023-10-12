@@ -27,7 +27,7 @@ function response(contents: Object, status: number = 200) {
         {
             status: status,
             headers: [
-                ['ContentType', 'application/json']
+                ['Content-Type', 'application/json']
             ]
         }
     )
